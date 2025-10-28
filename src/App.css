@@ -10,16 +10,22 @@ body {
   line-height: 1.8;
 }
 
+h1 {
+  margin-bottom: 1rem;
+}
+
 table {
   border: 1px solid #475560;
   border-radius: 8px;
   padding: 1.5rem;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  background-color: rgba(255,255,255,0.05);
 
   thead tr th {
-    border-bottom: 1px solid #475560;
+    border-bottom: 1px solid #475560a1;
     padding-bottom: 0.5rem;
+    width: 33.33%;
   }
 }
 

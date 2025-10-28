@@ -1,6 +1,5 @@
 import { useMemo } from 'react';
 import { MainData } from './MainData.tsx';
-import { SecondaryData } from './SecondaryData.tsx';
 import { PERCENT_STEPS } from '../../vam/constants.ts';
 import type { PercentageTableProps } from '../../vam/types.ts';
 import {
@@ -42,7 +41,7 @@ export const PercentageTable = ({
 
                     return (    
                     <tr key={value}>
-                        <td style={{ textAlign: 'left' }}>
+                        <td>
                             <MainData 
                                 className='percentage'
                                 data={pctLabel} 
@@ -55,9 +54,11 @@ export const PercentageTable = ({
                                 color={color} />
                         </td>
                         <td>
-                            <SecondaryData
+                            <MainData
                                 className='kph'
-                                data={`${kph.toFixed(kphDigits)}`} />
+                                data={`${kph.toFixed(kphDigits)}`}
+                                color={color}
+                             />
                         </td>
                     </tr>
                     );

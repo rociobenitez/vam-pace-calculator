@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <h1>Calculadora VAM</h1>
-      <p style={{ textWrap: 'balance'}}>
+      <p style={{ textWrap: 'balance', maxWidth: '600px', marginInline: 'auto' }}>
         Introduce la distancia que corriste en 5 minutos para calcular tus ritmos de entrenamiento.
       </p>
       <div style={{ 

@@ -27,7 +27,7 @@ export const ZoneTable = ({
         <table>
             <thead>
                 <tr>
-                    <th style={{ textAlign: 'left' }}>Zona</th>
+                    <th>Zona</th>
                     <th>Rango de Ritmo</th>
                     <th>Ritmo Óptimo</th>
                 </tr>
