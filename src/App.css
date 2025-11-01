@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -10,14 +10,10 @@ body {
   line-height: 1.8;
 }
 
-h1 {
-  margin-bottom: 1rem;
-}
-
 table {
   border: 1px solid #475560;
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1rem;
   width: 100%;
   margin-top: 1.5rem;
   background-color: rgba(255,255,255,0.05);
@@ -26,8 +22,27 @@ table {
     border-bottom: 1px solid #475560a1;
     padding-bottom: 0.5rem;
     width: 33.33%;
+    font-size: 0.925rem;
+
+    span {
+      font-weight: 400;
+      font-size: 0.75rem;
+      color: #a1a1a1;
+      display: block;
+    }
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (width >= 640px) {
+  #root {
+    padding: 2rem;
+  }
+
+  table {
+    padding: 1.5rem;
+  }
+
+  thead tr th {
+    font-size: 1rem;
+  }
 }

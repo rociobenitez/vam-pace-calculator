@@ -8,8 +8,9 @@ export const SecondaryData = ({ className, data }: Props) => {
     <span className={`secondary-data ${className}`}
       style = {{
         display: 'block',
-        color: '#CFD4D6',
-        fontSize: '1rem',
+        color: '#a1a1a1',
+        fontSize: '0.875rem',
+        lineHeight: '1.2'
       }}
       >
       {data}

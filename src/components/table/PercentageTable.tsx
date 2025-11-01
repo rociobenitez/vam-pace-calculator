@@ -29,8 +29,8 @@ export const PercentageTable = ({
             <thead>
                 <tr>
                     <th>%</th>
-                    <th>Ritmo (min/km)</th>
-                    <th>Velocidad (km/h)</th>
+                    <th>Ritmo <span>(min/km)</span></th>
+                    <th>Velocidad <span>(km/h)</span></th>
                 </tr>
             </thead>
             <tbody>
